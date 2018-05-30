@@ -1,0 +1,44 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+h1.image {
+  background-image: url(./images/pattern.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.brushes h2 {
+  background-color: MediumSpringGreen;
+}
+
+.frames h2{
+  background-color: LightCoral;
+}
+
+.paint h2{
+  background-color: SkyBlue;
+}
+
+.pricing {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: blue;
+}
+
+/* The image class I used in this project does not serve any working purpose. It did however help with trying to identify why my text editor wasn't highlighting "background" in the declaration "background-size." */
